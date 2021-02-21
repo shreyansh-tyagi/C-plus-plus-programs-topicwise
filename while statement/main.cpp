@@ -12,9 +12,9 @@ int main()
     while(i<=n)
     {
         cout<<"we are in while"<<endl;
-        i++;
+        ++i;
     }
-    cout<<"\n\nwhile loop terminated after: "<<i<<" iteration"<<endl;
+    cout<<"\n\nwhile loop terminated after: "<<i-1<<" iteration"<<endl;
     cout<<"next line";
 
     return 0;
