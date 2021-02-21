@@ -11,10 +11,11 @@ int main()
     cin>>n;
     while(i<n)
     {
-        cout<<"we are in while";
+        cout<<"we are in while\n";
         i++;
     }
-    cout<<"\n\nwhile loop terminated after"<<i;
+    cout<<"\n\nwhile loop terminated after: "<<i;
+    cout<<"iteration";
 
     return 0;
 }
