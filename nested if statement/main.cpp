@@ -13,6 +13,9 @@ int main()
         {
             cout<<"a is greater";
         }
+        else{
+            cout<<"c is greater";
+        }
 
     }
     else if(b>c){
