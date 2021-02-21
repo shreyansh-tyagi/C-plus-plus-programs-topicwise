@@ -6,10 +6,10 @@
 using namespace std;
 int main()
 {
-    int n,i=0;
+    int n,i=1;
     cout<<"enter the value of n: ";
     cin>>n;
-    while(i<n)
+    while(i<=n)
     {
         cout<<"we are in while"<<endl;
         i++;
