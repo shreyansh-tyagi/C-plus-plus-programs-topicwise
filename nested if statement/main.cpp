@@ -7,7 +7,7 @@ int main()
     cin>>a>>b>>c;
     if(a>b)
     {
-        if(b>c)
+        if(a<c)
         {
             cout<<"a is greater";
         }
