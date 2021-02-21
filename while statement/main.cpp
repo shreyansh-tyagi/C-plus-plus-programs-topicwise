@@ -14,8 +14,8 @@ int main()
         cout<<"we are in while"<<endl;
         i++;
     }
-    cout<<"\n\nwhile loop terminated after: "<<i;
-    cout<<" iteration";
+    cout<<"\n\nwhile loop terminated after: "<<i<<" iteration"<<endl;
+    cout<<"next line";
 
     return 0;
 }
