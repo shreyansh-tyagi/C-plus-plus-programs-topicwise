@@ -9,7 +9,13 @@ int main()
     {
         cout<<"a is greater";
     }
-    else if(b>a)&&
+    else if(b>a)&&(b>c)
+    {
+        cout<<"b is greater";
+    }
+    else{
+        cout<<"c is greater";
+    }
 
     return 0;
 }
