@@ -11,12 +11,12 @@ int main()
     cin>>n;
     for(i=0;i<n;i++)
     {
-        for(j=n;j<i;j--)
+        for(j=n;j>i;j--)
         {
             cout<<" ";
 
         }
-        for(k=0;k<i;k++)
+        for(k=0;k<=i;k++)
         {
             cout<<" *";
         }
