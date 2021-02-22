@@ -18,7 +18,7 @@ int main()
         }
         for(k=0;k<=i;k++)
         {
-            cout<<" *";
+            cout<<"*";
         }
         cout<<"\n";
     }
