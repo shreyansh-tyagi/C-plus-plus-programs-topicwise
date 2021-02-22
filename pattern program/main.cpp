@@ -54,9 +54,6 @@ int main()
            cout<<"*";
 
        } 
-    
-     for(k=0;k<n;k++)
-    {
         for(l=n;l>i;l--)
         {
             cout<<" ";
@@ -67,7 +64,6 @@ int main()
             cout<<"*";
         }
         cout<<"\n";
-    }
     }
     return 0;
 }
