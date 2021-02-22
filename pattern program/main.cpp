@@ -6,7 +6,7 @@
 using namespace std;
 int main()
 {
-    int i,j,n,k;
+    int i,j,n,k,l,m;
     cout<<"enter the value of n: ";
     cin>>n;
     for(i=0;i<n;i++)
@@ -54,19 +54,20 @@ int main()
            cout<<"*";
 
        } 
-    }
-     for(i=0;i<n;i++)
+    
+     for(k=0;k<n;k++)
     {
-        for(j=n;j>i;j--)
+        for(l=n;l>i;l--)
         {
             cout<<" ";
 
         }
-        for(k=0;k<=i;k++)
+        for(m=0;m<=i;m++)
         {
             cout<<"*";
         }
         cout<<"\n";
+    }
     }
     return 0;
 }
