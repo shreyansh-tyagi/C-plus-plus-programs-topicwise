@@ -23,16 +23,15 @@ int main()
     }
     for(l=0;l<n;l++)
     {
-        for(j=0;j<=l;j--)
+        for(j=0;j<=l;j++)
         {
             cout<<" ";
         }
-        for(k=0;k<=n;k++)
+        for(k=0;k<n;k++)
         {
             cout<<" *";
 
         }
-        
         cout<<"\n";
     }
     return 0;
