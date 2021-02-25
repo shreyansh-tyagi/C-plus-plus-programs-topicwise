@@ -27,11 +27,12 @@ int main()
         {
             cout<<" ";
         }
-        for(k=0;k<n;k++)
+        for(k=n;k>0;k--)
         {
             cout<<" *";
 
         }
+        
         cout<<"\n";
     }
     return 0;
