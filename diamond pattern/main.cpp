@@ -21,7 +21,7 @@ int main()
         }
         cout<<"\n";
     }
-    n=m;
+    m=n;
     for(l=0;l<n;l++)
     {
         for(j=0;j<=l;j++)
