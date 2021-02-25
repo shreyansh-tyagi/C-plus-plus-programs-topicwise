@@ -31,10 +31,8 @@ int main()
         for(k=m;k>0;k--)
         {
             cout<<" *";
-            m--;
-
         }
-        
+         m--;
         cout<<"\n";
     }
     return 0;
