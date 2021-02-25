@@ -17,7 +17,15 @@ int main()
         }
         for(k=0;k<i;k++)
         {
-            cout
+            cout<<" *";
+        }
+        cout<<"\n";
+    }
+    for(l=0;l<n;l++)
+    {
+        for(j=0;j<n;j++)
+        {
+            cout<<""
         }
     }
     return 0;
