@@ -1,29 +1,19 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-    int n, t1 = 0, t2 = 1, nextTerm = 0;
-
-    cout << "Enter the number of terms: ";
-    cin >> n;
-
-    cout << "Fibonacci Series: ";
-
-    for (int i = 1; i <= n; ++i) {
-        if(i == 1) 
-        {
-            cout << t1 << " ";
-            continue;
-        }
-        if(i == 2) {
-            cout << t2 << " ";
-            continue;
-        }
-        nextTerm = t1 + t2;
-        t1 = t2;
-        t2 = nextTerm;
-        
-        cout << nextTerm << ", ";
-    }
-    return 0;
-}
+int main()   //The Fibonacci Sequence is the series of numbers: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...
+{                              
+ int term1=0 , term2=1 , term3 , i , number;    
+ cout<<"Enter the number of elements: ";    
+ cin>>number;    
+ cout<<"Fibonacci Series :"<<" "<<term1<<" , "<<term2<<" , "; 
+    
+ for(i=2;i<number;++i)  
+ {    
+  term3=term1+term2;    //The next term of the series is found by adding the current term by the previous term
+  cout<<term3<<" , ";    
+  term1=term2;    //now ther current term is now the  previous term
+  term2=term3;    //the current term is the calculated term
+ }    
+   return 0;  
+   }  
