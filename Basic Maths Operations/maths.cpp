@@ -10,7 +10,7 @@ void INPUT(); void SUM(); void DIFF();  void PROD(); void DIV(); void PERM(); vo
 
 
 
-void INPUT(). //the function INPUT is a function through which the user inputs two values as number1 and number2 using the input operator '>>'
+void INPUT() //the function INPUT is a function through which the user inputs two values as number1 and number2 using the input operator '>>'
 {
 	cout<<"\n enter two integer numbers"; //the \n takes the cursor to the next line after the curren is executed 
 	 cin>>number1>>number2;
