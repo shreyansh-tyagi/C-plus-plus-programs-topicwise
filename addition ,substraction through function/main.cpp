@@ -7,17 +7,17 @@ using namespace std;
 int add(int,int);
 int sub(int,int);
 int mul(int,int);
-float div(int,int);
+int div(int,int);
 int main()
 {
-    int a ,b,c,d,e;
-    float f;
+    int a ,b,c,d,e,f;
+   // float f;
     cout<<"enter two numbers : \n";
     cin>>a>>b;
     c=add(a,b);
     d=sub(a,b);
     e=mul(a,b);
-    f=div(a,b);
+    //f=div(a,b);
     cout<<"sum: "<<c<<endl<<"subtarction: "<<d<<endl;
     return 0;
 }
@@ -33,7 +33,7 @@ int mul(int a ,int b)
 {
     return (a*b);
 }
-float div(int a ,int b)
+int div(int a ,int b)
 {
-    return (a/b);
+    return (abs(a/b));
 }
