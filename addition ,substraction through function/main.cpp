@@ -18,7 +18,7 @@ int main()
     d=sub(a,b);
     e=mul(a,b);
     //f=div(a,b);
-    cout<<"sum: "<<c<<endl<<"subtarction: "<<d<<endl;
+    cout<<"sum: "<<c<<endl<<"subtarction: "<<d<<endl<<"multiplication: "<<e<<endl;
     return 0;
 }
 int add(int a ,int b)
