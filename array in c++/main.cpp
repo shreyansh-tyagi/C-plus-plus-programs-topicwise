@@ -13,5 +13,15 @@ int main()
     {
         cin>>a[i];
     }
+    cout<<"\nfirst array is :\n";
+    for(i=0;i<n;i++)
+    {
+        cout<< a[i];
+    }
+    for(i=0;i<n;i++)
+    {
+        sum+=a[i];
+    }
+    cout<<"\nsum of array is : "<<sum;
     return 0;
 }
