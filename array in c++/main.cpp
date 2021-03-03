@@ -6,7 +6,7 @@
 using namespace std;
 int main()
 {
-    int sum,i,n,a[50];
+    int sum=0,i,n,a[50];
     cout<<"enter the size of array: ";
     cin>>n;
     for(i=0;i<n;i++)
@@ -16,7 +16,7 @@ int main()
     cout<<"\nfirst array is :\n";
     for(i=0;i<n;i++)
     {
-        cout<< a[i];
+        cout<<a[i]<<" ";
     }
     for(i=0;i<n;i++)
     {
