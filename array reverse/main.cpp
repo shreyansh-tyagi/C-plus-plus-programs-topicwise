@@ -13,7 +13,7 @@ int main()
     {
         cin>>a[i];
     }
-    cout>>\n"the array is : \n"
+    cout<<\n"the array is : \n";
     for(i =0;i<n;i++)
     {
         cout<<a[i]<<" ";
