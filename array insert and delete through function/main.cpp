@@ -45,15 +45,15 @@ void insert(int a[50],int n)
 void delete1(int a[50],int n)
 {
     int i,loc,key;
-    cout<<"\nenter the loaction from where you want ot insert the element : ";
+    cout<<"\nenter the loaction from where you want to delete the element : ";
     cin>>loc;
     key=a[loc];
     cout<<"\nthe element that has been deleted from array is : "<<key;
-    for(i=loc;i<=n-1;i++)
+    for(i=loc;i<=n;i++)
     {
         a[i]=a[i+1];
     }
-    cout<<"\nafter deletion: \n"
+    cout<<"\nafter deletion: \n";
     for(i=1;i<=n;i++)
     {
         cout<<a[i]<<" ";
