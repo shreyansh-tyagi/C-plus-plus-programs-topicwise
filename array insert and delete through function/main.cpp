@@ -36,6 +36,7 @@ void insert(int a[50],int n)
         a[i+1]=a[i];
     }
     a[loc]=key;
+    cout<<"\nafter insertion\n";
     for(i=1;i<=n+1;i++)
     {
         cout<<a[i]<<" ";
@@ -52,5 +53,9 @@ void delete1(int a[50],int n)
     {
         a[i]=a[i+1];
     }
-
+    cout<<"\nafter deletion: \n"
+    for(i=1;i<=n;i++)
+    {
+        cout<<a[i]<<" ";
+    }
 }
