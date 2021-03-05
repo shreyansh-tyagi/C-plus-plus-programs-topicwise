@@ -24,4 +24,10 @@ int main()
     delete1(a,n);
     return 0;
 }
-voi
+void insert(int a[50],int n)
+{
+    int i,loc,key;
+    cout<<"enter the location at which you want to insert the element : ";
+    cin>>loc;
+    cout<<"enter the n"
+}
