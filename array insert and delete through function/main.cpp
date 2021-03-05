@@ -29,5 +29,15 @@ void insert(int a[50],int n)
     int i,loc,key;
     cout<<"enter the location at which you want to insert the element : ";
     cin>>loc;
-    cout<<"enter the n"
+    cout<<"enter the new key elememt to be inserted : ";
+    cin>>key;
+    for(i=n;i>=loc;i--)
+    {
+        a[i+1]=a[i];
+    }
+    a[loc]=key;
+    for(i=1;i<=n+1;i++)
+    {
+        cout<<a[i]<<" ";
+    }
 }
