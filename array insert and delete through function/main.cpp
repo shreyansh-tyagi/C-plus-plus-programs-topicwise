@@ -43,7 +43,14 @@ void insert(int a[50],int n)
 }
 void delete1(int a[50],int n)
 {
-    int i,loc;
+    int i,loc,key;
     cout<<"\nenter the loaction from where you want ot insert the element : ";
-    cin>>
+    cin>>loc;
+    key=a[loc];
+    cout<<"\nthe element that has been deleted from array is : "<<key;
+    for(i=loc;i<=n-1;i++)
+    {
+        a[i]=a[i+1];
+    }
+
 }
