@@ -18,7 +18,7 @@ int main()
     cout<<"first array : ";
     for(i=1;i<=n;i++)
     {
-        cin>>a[i];
+        cout<<a[i]<<" ";
     }
     insert(a,n);
    // delete1(a,n);
