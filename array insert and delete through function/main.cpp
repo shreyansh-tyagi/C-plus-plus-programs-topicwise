@@ -5,7 +5,7 @@
 #include <algorithm>
 using namespace std;
 void insert(int [],int);
-void delete1(int [],int);
+//void delete1(int [],int);
 int main()
 {
     int i,n,a[50];
@@ -21,7 +21,7 @@ int main()
         cin>>a[i];
     }
     insert(a,n);
-    delete1(a,n);
+   // delete1(a,n);
     return 0;
 }
 void insert(int a[50],int n)
