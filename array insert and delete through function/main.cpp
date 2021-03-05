@@ -5,7 +5,7 @@
 #include <algorithm>
 using namespace std;
 void insert(int [],int);
-void delete1(int [],int)
+void delete1(int [],int);
 int main()
 {
     int i,n,a[50];
