@@ -31,7 +31,7 @@ void ascending(int a[50],int n)
     {
         for(j=1;j<=n;j++)
         {
-            if(a[i]>a[j])
+            if(a[i]<a[j])
             {
                 temp=a[i];
                 a[i]=a[j];
@@ -53,7 +53,7 @@ void descending(int a[50],int n)
     {
         for(j=1;j<=n;j++)
         {
-            if(a[i]<a[j])
+            if(a[i]>a[j])
             {
                 temp=a[i];
                 a[i]=a[j];
