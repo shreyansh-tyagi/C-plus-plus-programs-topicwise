@@ -10,12 +10,12 @@ int main()
 {
     int i,n,a[50];
     cin>>n;
-    cout<<"enter the size of array : ";
+    cout<<"\nenter the size of array : ";
     for(i=1;i<=n;i++)
     {
         cin>>a[i];
     }
-    cout<<"first array : ";
+    cout<<"\nfirst array : ";
     for(i=1;i<=n;i++)
     {
         cout<<a[i]<<" ";
@@ -40,5 +40,9 @@ void ascending(int a[50],int n)
 
         }
     }
-    cout
+    cout<<"\nthe array in ascending : ";
+    for(i=1;i<=n;i++)
+    {
+        cout<<a[i]<<" ";
+    }
 }
