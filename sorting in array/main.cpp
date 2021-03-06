@@ -9,8 +9,8 @@ void ascending(int [],int);
 int main()
 {
     int i,n,a[50];
-    cin>>n;
     cout<<"\nenter the size of array : ";
+    cin>>n;
     for(i=1;i<=n;i++)
     {
         cin>>a[i];
