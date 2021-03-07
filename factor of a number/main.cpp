@@ -17,6 +17,9 @@ int main()
             cout<<i<<" ";
              i++;
         }
+        else{
+            i++;
+        }
        
     }
 
