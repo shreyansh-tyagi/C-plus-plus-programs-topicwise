@@ -15,8 +15,9 @@ int main()
         if(i%n==0)
         {
             cout<<i<<" ";
+             i++;
         }
-        i++;
+       
     }
 
     return 0;
