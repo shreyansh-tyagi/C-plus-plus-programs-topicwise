@@ -39,4 +39,10 @@ void insertion(int a[50],int n)
     {
         a[i+m]=a[i];
     }
+    for(i=1;i<=m;i++)
+    {
+        a[loc]=b[i];
+        loc++;
+    }
+    
 }
