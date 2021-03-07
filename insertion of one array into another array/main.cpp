@@ -21,7 +21,7 @@ int main()
 }
 void insertion(int a[50],int n)
 {
-    int i,b[50],m;
+    int i,b[50],m,loc;
     cout<<"\nenter the size of second array: ";
     cin>>m;
     for(i=1;i<=m;i++)
@@ -29,4 +29,14 @@ void insertion(int a[50],int n)
         cin>>b[i];
     }
     cout<<"\nsecond array : ";
+    for(i=1;i<=m;i++)
+    {
+        cout<<b[i]<<" ";
+    }
+    cout<<"enter the location from where you want to insert one array into second array: ";
+    cin>>loc;
+    for(i=n;i>=loc;i--)
+    {
+        a[i+m]=a[i];
+    }
 }
