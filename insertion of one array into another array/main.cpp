@@ -10,6 +10,7 @@ int main()
     int i,n,a[50];
     cout<<"\nenter the size of first array: ";
     cin>>n;
+    cout<<"\nenter element into array: \n";
     for(i=1;i<=n;i++)
     {
         cin>>a[i];
@@ -28,6 +29,7 @@ void insertion(int a[50],int n)
     int i,b[50],m,loc;
     cout<<"\nenter the size of second array: ";
     cin>>m;
+    cout<<"\nenter element into array: \n";
     for(i=1;i<=m;i++)
     {
         cin>>b[i];
