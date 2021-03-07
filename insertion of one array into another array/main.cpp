@@ -10,7 +10,7 @@ int main()
     int i,n,a[50];
     cout<<"\nenter the size of first array: ";
     cin>>n;
-    for(i=0;i<=n;i++)
+    for(i=1;i<=n;i++)
     {
         cin>>a[i];
     }
