@@ -44,5 +44,10 @@ void insertion(int a[50],int n)
         a[loc]=b[i];
         loc++;
     }
-    
+    cout<<"after insertion of one array into another array is: ";
+    for(i=0;i<=(n+m);i++)
+    {
+        cout<<a[i]<<" ";
+    }
+
 }
