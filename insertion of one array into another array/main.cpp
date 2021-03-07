@@ -10,11 +10,15 @@ int main()
     int i,n,a[50];
     cout<<"\nenter the size of first array: ";
     cin>>n;
+    for(i=0;i<=n;i++)
+    {
+        cin>>a[i];
+    }
+    cout<<"\nfirst array :\n ";
     for(i=1;i<=n;i++)
     {
         cout<<a[i]<<" ";
     }
-    cout<<"\nfirst array : ";
     insertion(a,n);
     
     return 0;
@@ -28,12 +32,12 @@ void insertion(int a[50],int n)
     {
         cin>>b[i];
     }
-    cout<<"\nsecond array : ";
+    cout<<"\nsecond array :\n ";
     for(i=1;i<=m;i++)
     {
         cout<<b[i]<<" ";
     }
-    cout<<"enter the location from where you want to insert one array into second array: ";
+    cout<<"\nenter the location from where you want to insert one array into second array:\n ";
     cin>>loc;
     for(i=n;i>=loc;i--)
     {
