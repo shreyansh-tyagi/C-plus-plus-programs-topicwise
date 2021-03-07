@@ -12,7 +12,7 @@ int main()
     cout<<endl;
     while(i<=n)
     {
-        if(i%n==0)
+        if(n%i==0)
         {
             cout<<i<<" ";
              i++;
