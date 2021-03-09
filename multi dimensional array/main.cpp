@@ -10,7 +10,7 @@ int main()
     int i ,j,n,a[50][50];
     cout<<"enter the row and coloumn : ";
     cin>>n;
-    cout<<"\nfirst array :\n ";
+    cout<<"\nfirst array :\n";
     for(i=1;i<=n;i++)
     {
         for(j=1;j<=n;j++)
