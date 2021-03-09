@@ -40,7 +40,7 @@ void multiarray(int a[50][50],int n)
 void sumarray(int a[50][50],int n)
 {
     int i,j,b[50][50],s[50][50];
-    cout<<"second array : ";
+    cout<<"\nsecond array :\n";
     for(i=1;i<=n;i++)
     {
         for(j=1;j<=n;j++)
