@@ -48,5 +48,14 @@ void sumarray(int a[50][50],int n)
             cin>>b[i][j];
         }
     }
+    cout<<"\n\n";
+     for(i=1;i<=n;i++)
+    {
+        for(j=1;j<=n;j++)
+        {
+            cout<<b[i][j]<<" ";
+        }
+
+    }
 
 }
