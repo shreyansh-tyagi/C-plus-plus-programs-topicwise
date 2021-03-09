@@ -19,5 +19,10 @@ int main()
 
         }
     }
+    multiarray(a,n);
     return 0;
+}
+void multiarray(int a[50][50],int n)
+{
+    
 }
