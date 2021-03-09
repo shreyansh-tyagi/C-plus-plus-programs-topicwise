@@ -24,5 +24,12 @@ int main()
 }
 void multiarray(int a[50][50],int n)
 {
-    
+    int i,j;
+    for(i=1;i<=n;i++)
+    {
+        for(j=1;j<=n;j++)
+        {
+            cout<<a[i][j]<<" ";
+        }
+    }
 }
