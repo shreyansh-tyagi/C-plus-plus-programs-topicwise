@@ -22,7 +22,7 @@ int main()
     multiarray(a,n);
     return 0;
 }
-void multiarray(int a[50][50],int n)
+void multiarray(int a[][50],int n)
 {
     int i,j;
     for(i=1;i<=n;i++)
