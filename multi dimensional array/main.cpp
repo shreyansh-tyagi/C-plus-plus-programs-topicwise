@@ -4,7 +4,7 @@
 #include <vector>
 #include <algorithm>
 using namespace std;
-void multiarray(int [][],int)
+void multiarray(int [][],int);
 int main()
 {
     int i ,j,n,a[50][50];
