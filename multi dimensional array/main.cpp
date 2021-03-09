@@ -10,7 +10,7 @@ int main()
     int i ,j,n,a[50][50];
     cout<<"enter the row and coloumn : ";
     cin>>n;
-    cout<<"\nfirst array : ";
+    cout<<"\nfirst array :\n ";
     for(i=1;i<=n;i++)
     {
         for(j=1;j<=n;j++)
@@ -19,6 +19,7 @@ int main()
 
         }
     }
+    cout<<"\n\n";
     multiarray(a,n);
     return 0;
 }
