@@ -31,5 +31,6 @@ void multiarray(int a[50][50],int n)
         {
             cout<<a[i][j]<<" ";
         }
+        cout<<endl;
     }
 }
