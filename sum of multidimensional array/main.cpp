@@ -55,6 +55,8 @@ void sumarray(int a[50][50],int n)
         {
             cout<<b[i][j]<<" ";
         }
+        
+        cout<<endl;
 
     }
       for(i=1;i<=n;i++)
@@ -65,7 +67,7 @@ void sumarray(int a[50][50],int n)
         }
 
     }
-    cout<<"sum : ";
+    cout<<"\nsum : ";
     cout<<"\n\n";
       for(i=1;i<=n;i++)
     {
@@ -73,6 +75,7 @@ void sumarray(int a[50][50],int n)
         {
             cout<<s[i][j]<<" ";
         }
+        cout<<endl;
 
     }
 
