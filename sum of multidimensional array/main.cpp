@@ -24,6 +24,7 @@ int main()
     cout<<"\n\n";
     multiarray(a,n);
     sumarray(a,n);
+    subarray(a,n);
     return 0;
 }
 void multiarray(int a[50][50],int n)
