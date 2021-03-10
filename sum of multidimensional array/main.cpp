@@ -21,7 +21,7 @@ int main()
 
         }
     }
-    cout<<"\n\n";
+    cout<<"\n\nfirst array: ";
     multiarray(a,n);
     sumarray(a,n);
     subarray(a,n);
@@ -50,7 +50,7 @@ void sumarray(int a[50][50],int n)
             cin>>b[i][j];
         }
     }
-    cout<<"\n\n";
+    cout<<"\n\nsecond array: ";
      for(i=1;i<=n;i++)
     {
         for(j=1;j<=n;j++)
@@ -93,7 +93,7 @@ void subarray(int a[50][50],int n)
             cin>>b[i][j];
         }
     }
-    cout<<"\n\n";
+    cout<<"\n\nthird array: ";
      for(i=1;i<=n;i++)
     {
         for(j=1;j<=n;j++)
