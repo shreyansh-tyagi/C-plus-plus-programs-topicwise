@@ -6,6 +6,7 @@
 using namespace std;
 void multiarray(int a[50][50],int n);
 void sumarray(int a[50][50],int);
+void subarray(int a[][],int);
 int main()
 {
     int i ,j,n,a[50][50];
