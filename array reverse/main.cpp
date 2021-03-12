@@ -18,7 +18,7 @@ int main()
     {
         cout<<a[i]<<" ";
     }
-    cout<<"\n the reverse array is  :\n";
+    cout<<"\n the reverse of array is  :\n";
     
     for(i=n-1;i>=0;i--)
     {
