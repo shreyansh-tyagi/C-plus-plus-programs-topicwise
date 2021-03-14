@@ -13,6 +13,6 @@ int main()
     cout<<"\nthe value of i is :  "<<i<<endl;
     cout<<"\nthe address of i is : "<<&i<<endl;
     cout<<"\n the value of p is : "<<p<<endl;
-    cout<<"\nthe value through pointer is : "<<*p<<endl;
+    cout<<"\nthe value of i through pointer is : "<<*p<<endl;
     return 0;
 }
