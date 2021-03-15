@@ -34,6 +34,7 @@ int main()
     {
         cout<<*ptr[i]<<" ";
     }
+    cout<<endl;
     for(i=0;i<n;i++)
     {
         cout<<**(ptr+i)<<" ";
