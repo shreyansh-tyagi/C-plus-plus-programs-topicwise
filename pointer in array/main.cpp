@@ -15,9 +15,11 @@ int main()
         cin>>a[i];
     }
     p=a;
+    cout<<"\nfirst array through single pointer variable\n";
     for(i=0;i<n;i++)
     {
-        cout<<
+        cout<<*(p+i)<<" ";
     }
+    cout
     return 0;
 }
