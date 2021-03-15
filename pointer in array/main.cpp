@@ -25,5 +25,10 @@ int main()
     {
         ptr[i]=a+i;
     }
+    cout<<"\npointer array value : \n";
+    for(i=0;i<n;i++)
+    {
+        cout<<ptr[i]<<" ";
+    }
     return 0;
 }
