@@ -20,6 +20,10 @@ int main()
     {
         cout<<*(p+i)<<" ";
     }
-    cout
+    cout<<"\nfirst array through pointer array:\n ";
+    for(i=0;i<n;i++)
+    {
+        ptr[i]=a+i;
+    }
     return 0;
 }
