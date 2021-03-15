@@ -9,7 +9,7 @@ int main()
     int i,a[50],*p,n,*ptr[50];
     cout<<"enter the size of array: ";
     cin>>n;
-    cout<<"\nenter the value into array: ";
+    cout<<"\nenter the value into array: \n";
     for(i=0;i<n;i++)
     {
         cin>>a[i];
@@ -20,7 +20,6 @@ int main()
     {
         cout<<*(p+i)<<" ";
     }
-    cout<<"\nfirst array through pointer array:\n ";
     for(i=0;i<n;i++)
     {
         ptr[i]=a+i;
@@ -34,6 +33,10 @@ int main()
     for(i=0;i<n;i++)
     {
         cout<<*ptr[i]<<" ";
+    }
+    for(i=0;i<n;i++)
+    {
+        cout<<**(ptr+i)<<" ";
     }
     return 0;
 }
