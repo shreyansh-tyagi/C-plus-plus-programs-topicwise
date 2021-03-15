@@ -30,5 +30,10 @@ int main()
     {
         cout<<ptr[i]<<" ";
     }
+    cout<<"\nvalue through pointer array: \n";
+    for(i=0;i<n;i++)
+    {
+        cout<<*ptr[i]<<" ";
+    }
     return 0;
 }
