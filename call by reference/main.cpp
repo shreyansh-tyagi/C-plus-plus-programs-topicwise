@@ -10,8 +10,9 @@ int main()
     int a,b;
     cout<<"\nenter the value of a and b to swap the number: \n";
     cin>>a>>b;
+    
     swap(&a,&b);
-    cout<<""
+    cout<<"\nafter swap the value of a and b is: "<<a<<" "<<b<<endl;
     return 0;
 }
 void swap(int *x,int *y)
