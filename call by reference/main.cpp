@@ -10,7 +10,7 @@ int main()
     int a,b;
     cout<<"\nenter the value of a and b to swap the number: \n";
     cin>>a>>b;
-    
+    cout<<"before swap the value of and b is: \n"<<a<<" "<<b<<endl;
     swap(&a,&b);
     cout<<"\nafter swap the value of a and b is: "<<a<<" "<<b<<endl;
     return 0;
