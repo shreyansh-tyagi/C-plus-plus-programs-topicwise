@@ -23,5 +23,4 @@ void swap(int *x,int *y)
     *y=temp;
     cout<<"\n\nvalue of x and y:\n"<<x<<" "<<y;
     cout<<"\nafter swap the value of x and y is: "<<*x<<" "<<*y;
-
 }
