@@ -4,14 +4,14 @@
 #include <vector>
 #include <algorithm>
 using namespace std;
-int function(int , int );
+void function(int * , int * );
 int main()
 {
-    int a,b,*p;
+    int a,b;
     cout<<"\nenter the value of a and b:\n";
     cin>>a>>b;
-    int (*function_pointer)(int,int);
+    void (*function_pointer)(int *,int *);
     function_pointer=&function;
-    
+    function_pointer(&a,&b); 
     return 0;
 }
