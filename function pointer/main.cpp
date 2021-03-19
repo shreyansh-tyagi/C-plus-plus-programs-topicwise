@@ -14,6 +14,7 @@ int main()
     function_pointer=&function;
     function_pointer(&a,&b);
     cout<<"the value of a and b: "<<a<<" "<<b<<endl; 
+    cout<<"the value of a and b after swapp: "<<a<<" "<<b<<endl;
     return 0;
 }
 void function(int *a,int *b)
@@ -25,6 +26,6 @@ void function(int *a,int *b)
     c=*a+*b;
     cout<<"the value of a and b in function:"<<a<<" "<<b<<endl;
     cout<<"swapped value of a and b:"<<*a<<" "<<*b<<endl;
-    cout<<"the sum of a and "
+    cout<<"the sum of a and b: "<<c<<endl;
     
 }
