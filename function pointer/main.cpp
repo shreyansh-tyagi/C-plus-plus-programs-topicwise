@@ -25,5 +25,6 @@ void function(int *a,int *b)
     c=*a+*b;
     cout<<"the value of a and b in function:"<<a<<" "<<b<<endl;
     cout<<"swapped value of a and b:"<<*a<<" "<<*b<<endl;
+    cout<<"the sum of a and "
     
 }
