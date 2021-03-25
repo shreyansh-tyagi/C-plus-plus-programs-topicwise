@@ -22,7 +22,7 @@ int main()
     {
         for(j=0;j<c1;j++)
         {
-            cout<<a[i][j];
+            cout<<a[i][j]<<" ";
         }
         cout<<endl;
     }
