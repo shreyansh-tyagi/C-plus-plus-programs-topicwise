@@ -29,4 +29,5 @@ void function(int *a,int *b,int *c)
     cout<<"swapped value of a and b:"<<*a<<" "<<*b<<endl;
     cout<<"the sum of a and b in function: "<<*c<<endl;
     
+    
 }
