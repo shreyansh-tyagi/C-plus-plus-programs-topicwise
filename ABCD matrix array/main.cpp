@@ -15,6 +15,15 @@ int main()
         {
             cin>>a[i][j];
         }
+        cout<<endl;
+    }
+    for(i=0;i<r1;i++)
+    {
+        for(j=0;j<c1;j++)
+        {
+            cout<<a[i][j];
+        }
+        cout<<endl;
     }
 
     return 0;
