@@ -99,7 +99,7 @@ void DIVIS() //the function DIVIS is used to check if either input values are di
 }
 
 int main()
-{                 //the functions mentioned in the main will be executed in order starting from INPUT and ending at DIVIS 
+{                 //the functions mentioned in the main will be executed in order starting from INPUT and ending at DIVIS more
 	 INPUT();
 	 SUM();
 	DIFF();
