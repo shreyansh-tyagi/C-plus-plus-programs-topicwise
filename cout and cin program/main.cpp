@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
     char arr[]="welcome to the world of c++";
-    cout<<"the value of array:"<<arr<<endl;
+    cout<<"the value of array:  "<<arr<<endl;
 
     return 0;
 }
