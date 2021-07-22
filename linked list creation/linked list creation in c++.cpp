@@ -9,7 +9,7 @@ struct node{
     int data;
     struct node *link;
 };
-
+void display(struct node *);
 int main()
 {
     struct node *root=NULL, *temp=NULL,*p=NULL;
@@ -36,4 +36,8 @@ int main()
 
     }
     }
+}
+void display(struct node *root)
+{
+    
 }
