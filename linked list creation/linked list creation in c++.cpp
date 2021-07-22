@@ -30,8 +30,9 @@ int main()
         p=root;
         while(p->link!=NULL)
         {
-            
+            p=p->link;
         }
+        p->link=temp;
 
     }
     }
