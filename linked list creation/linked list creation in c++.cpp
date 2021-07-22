@@ -12,5 +12,7 @@ struct node{
 
 int main()
 {
-    int temp
+    struct node *root=NULL, *temp=NULL;
+    temp=(struct node *)malloc(sizeof(struct node));
+    if (root==NULL)
 }
