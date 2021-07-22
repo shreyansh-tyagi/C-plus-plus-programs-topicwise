@@ -21,6 +21,7 @@ int main()
     temp=(struct node *)malloc(sizeof(struct node));
     cout<<"\n\nenter the element into linked list: ";
     cin>>temp->data;
+    temp->link=NULL;
     if (root==NULL)
     {
         root=temp;
