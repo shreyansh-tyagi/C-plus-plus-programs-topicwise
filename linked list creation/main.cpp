@@ -9,7 +9,7 @@ struct node{
     int data;
     struct node *link;
 };
-void display(struct node *);
+void single_linked_list_display(struct node *);
 int main()
 {
     struct node *root=NULL, *temp=NULL,*p=NULL;
@@ -36,9 +36,9 @@ int main()
 
     }
     }
-    display(root);
+    single_linked_list_display(root);
 }
-void display(struct node *root)
+void single_linked_list_display(struct node *root)
 {
     while(root!=NULL)
     {
