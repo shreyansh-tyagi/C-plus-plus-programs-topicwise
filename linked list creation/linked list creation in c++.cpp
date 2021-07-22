@@ -12,7 +12,7 @@ struct node{
 
 int main()
 {
-    struct node *root=NULL, *temp=NULL;
+    struct node *root=NULL, *temp=NULL,*p=NULL;
     int n,i;
     cout<<"enter the size of linked list: ";
     cin>>n;
@@ -25,6 +25,14 @@ int main()
     if (root==NULL)
     {
         root=temp;
+    }
+    else{
+        p=root;
+        while(p->link!=NULL)
+        {
+            
+        }
+
     }
     }
 }
