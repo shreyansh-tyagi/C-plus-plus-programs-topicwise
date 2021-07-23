@@ -51,7 +51,7 @@ void display(struct node *root)
 void insert_at_begin(struct node *root)
 {
     struct node *temp=NULL;
-    cout<<"enter the element that you want to insert at begin: ";
+    cout<<"\nenter the element that you want to insert at begin: ";
     temp=(struct node *)malloc(sizeof(struct node));
     cin>>temp->data;
     temp->link=root;
