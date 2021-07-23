@@ -9,7 +9,7 @@ struct node
     int data;
     struct node *link;
 };
-vpid display(struct node *);
+void display(struct node *);
 int main()
 {
     int i,n,a;
@@ -36,5 +36,9 @@ int main()
         }
     }
 
+    display(root);
+}
+void display(struct node *root)
+{
     
 }
