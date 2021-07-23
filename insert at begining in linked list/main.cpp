@@ -48,8 +48,8 @@ void display(struct node *root)
     temp=root;
     while(temp!=NULL)
     {
-        cout<<root->data<<" ";
-        root=root->link;
+        cout<<temp->data<<" ";
+        temp=temp->link;
     }
 }
 void insert_at_begin(struct node *root)
