@@ -44,7 +44,9 @@ int main()
 }
 void display(struct node *root)
 {
-    while(root!=NULL)
+    struct node *temp;
+    temp=root;
+    while(temp!=NULL)
     {
         cout<<root->data<<" ";
         root=root->link;
@@ -67,7 +69,7 @@ void insert_at_begin(struct node *root)
 void insert_at_end(struct node *root)
 {
     struct node *temp=NULL;
-    cout<<"enter the element that you want to insert at the end: ";
+    cout<<"\nenter the element that you want to insert at the end: ";
     temp=(struct node *)malloc(sizeof(struct node ));
     cin>>temp->data;
     temp->link=NULL;
