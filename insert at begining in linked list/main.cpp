@@ -13,7 +13,13 @@ struct node
 int main()
 {
     int i,n,a;
-    cout<<"enter the size of linked list"
+    cout<<"enter the size of linked list: ";
+    cin>>n;
+    for(i=0;i<n;i++)
+    {
+        
+    }
+
     
     return 0;
 }
