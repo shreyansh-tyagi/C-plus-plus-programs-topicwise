@@ -38,6 +38,7 @@ int main()
     }
 
     display(root);
+    insert_at_begin(root);
 }
 void display(struct node *root)
 {
