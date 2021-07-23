@@ -56,7 +56,8 @@ void insert_at_begin(struct node *root)
     temp->link=root;
     while(temp!=NULL)
     {
-        
+        cout<<temp->data<<" ";
+        temp=temp->link;
     }
 
 }
