@@ -67,4 +67,6 @@ void insert_at_begin(struct node *root)
 void insert_at_end(struct node *root)
 {
     struct node *temp=NULL;
+    cout<<"enter the element that you want to insert at the end: ";
+    cin>>temp
 }
