@@ -40,5 +40,9 @@ int main()
 }
 void display(struct node *root)
 {
-    
+    while(root!=NULL)
+    {
+        cout<<root->data<<" ";
+        root=root->link;
+    }
 }
