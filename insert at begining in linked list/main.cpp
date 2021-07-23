@@ -81,6 +81,7 @@ void insert_at_end(struct node *root)
     p->link=temp;
     while(root!=NULL)
     {
-        
+        cout<<root->data<<" ";
+        root=root->link;
     }
 }
