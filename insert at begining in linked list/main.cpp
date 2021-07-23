@@ -10,6 +10,7 @@ struct node
     struct node *link;
 };
 void display(struct node *);
+void insert_at_begin(struct node *);
 int main()
 {
     int i,n,a;
