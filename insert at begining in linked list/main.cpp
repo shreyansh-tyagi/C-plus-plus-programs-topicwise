@@ -54,5 +54,9 @@ void insert_at_begin(struct node *root)
     temp=(struct node *)malloc(sizeof(struct node));
     cin>>temp->data;
     temp->link=root;
+    while(temp!=NULL)
+    {
+        
+    }
 
 }
