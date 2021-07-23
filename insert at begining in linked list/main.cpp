@@ -79,4 +79,8 @@ void insert_at_end(struct node *root)
         p=p->link;
     }
     p->link=temp;
+    while(root!=NULL)
+    {
+        
+    }
 }
