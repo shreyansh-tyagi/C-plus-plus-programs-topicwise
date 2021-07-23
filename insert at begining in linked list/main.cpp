@@ -70,11 +70,12 @@ void insert_at_begin(struct node *root)
 void insert_at_end(struct node *root)
 {
     struct node *temp=NULL,*p=NULL;
+    p=root;
     cout<<"\nenter the element that you want to insert at the end: ";
     temp=(struct node *)malloc(sizeof(struct node ));
     cin>>temp->data;
     temp->link=NULL;
-    while(p!=NULL)
+    while(p->link!=NULL)
     {
         p=p->link;
     }
