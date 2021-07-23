@@ -11,6 +11,7 @@ struct node
 };
 void display(struct node *);
 void insert_at_begin(struct node *);
+void insert_at_end(struct node *);
 int main()
 {
     int i,n,a;
@@ -39,6 +40,7 @@ int main()
 
     display(root);
     insert_at_begin(root);
+    insert_at_end(root);
 }
 void display(struct node *root)
 {
@@ -62,3 +64,4 @@ void insert_at_begin(struct node *root)
     }
 
 }
+void insert_at_end(str)
