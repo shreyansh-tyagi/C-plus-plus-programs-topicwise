@@ -31,8 +31,8 @@ int main()
             while(p->link!=NULL)
             {
                 p=p->link;
-
             }
+            p->link=temp;
         }
     }
 
