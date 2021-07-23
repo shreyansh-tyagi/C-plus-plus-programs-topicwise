@@ -47,3 +47,8 @@ void display(struct node *root)
         root=root->link;
     }
 }
+void insert_at_begin(struct node *root)
+{
+    cout<<"enter the element that you want to insert at begin: ";
+    
+}
