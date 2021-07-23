@@ -64,4 +64,7 @@ void insert_at_begin(struct node *root)
     }
 
 }
-void insert_at_end(str)
+void insert_at_end(struct node *root)
+{
+    struct node *temp=NULL;
+}
