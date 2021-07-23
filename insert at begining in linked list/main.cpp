@@ -27,7 +27,12 @@ int main()
             root=temp;
         }
         else{
-            
+            p=root;
+            while(p->link!=NULL)
+            {
+                p=p->link;
+
+            }
         }
     }
 
