@@ -58,6 +58,7 @@ void insert_at_random(struct node *root)
     cout<<"enter the position where you want to insert the new element: ";
     cin>>n;
     cout<<"enter the new element where you want to insert: ";
+    temp=(struct node *)malloc(sizeof(struct node));
     cin>>temp->data;
     while(a!=n)
     {
@@ -65,6 +66,7 @@ void insert_at_random(struct node *root)
         {
             p=p->link;
         }
+        p->link=temp;
     }
 
 
