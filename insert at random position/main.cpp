@@ -41,5 +41,9 @@ int main()
 void display(struct node *root)
 {
     struct node *temp=root;
-    while()
+    cout<<"\nlinked list is : ";
+    while(temp!=NULL)
+    {
+        cout<<temp->data;
+    }
 }
