@@ -52,7 +52,7 @@ void display(struct node *root)
 }
 void insert_at_random(struct node *root)
 {
-    struct node *temp=NULL,*p=NULL;
+    struct node *temp=NULL,*p=NULL,*q=NULL;
     int n,a=0;
     p=root;
     cout<<"enter the position where you want to insert the new element: ";
@@ -62,12 +62,12 @@ void insert_at_random(struct node *root)
     cin>>temp->data;
     while(a!=n)
     {
-        while(p->link!=NULL)
-        {
-            p=p->link;
-        }
-        p->link=temp;
+        p=p->link;
     }
+    q=p;
+    p->link=temp;
+    temp->link=q;
+
 
 
 }
