@@ -21,6 +21,18 @@ int main()
         cout<<"enter the element into the linked list: ";
         cin>>temp->data;
         temp->link=NULL;
+        if (root==NULL)
+        {
+            root=temp;
+        }
+        else{
+            p=root;
+            while(p!=NULL)
+            {
+                p=p->link;
+            }
+            p->link=temp;
+        }
     }
     return 0;
 }
