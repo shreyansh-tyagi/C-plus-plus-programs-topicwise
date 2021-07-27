@@ -10,6 +10,7 @@ struct node{
 
 };
 void display(struct node *);
+void insert_at_random(struct node *);
 int main()
 {
     int i,n;
@@ -36,6 +37,7 @@ int main()
         }
     }
     display(root);
+    insert_at_random(root);
     return 0;
 }
 void display(struct node *root)
@@ -47,4 +49,8 @@ void display(struct node *root)
         cout<<temp->data<<" ->";
         temp=temp->link;
     }
+}
+void insert_at_random(struct node *root)
+{
+    
 }
