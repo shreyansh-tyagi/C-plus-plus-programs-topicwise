@@ -67,7 +67,7 @@ void insert_at_random(struct node *root)
     q=p;
     p->link=temp;
     temp->link=q;
-    while(root!=NULL){
+    while(root->link!=NULL){
         cout<<root->data<<" ";
         root=root->link;
     }
