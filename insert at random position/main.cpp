@@ -46,21 +46,21 @@ void display(struct node *root)
     cout<<"\nlinked list is :\n ";
     while(temp!=NULL)
     {
-        cout<<temp->data<<" ->";
+        cout<<temp->data<<" ";
         temp=temp->link;
     }
 }
 void insert_at_random(struct node *root)
 {
     struct node *temp=NULL,*p=NULL,*q=NULL;
-    int n,a=0;
+    int n,i;
     p=root;
-    cout<<"enter the position where you want to insert the new element: ";
+    cout<<"\nenter the position where you want to insert the new element: ";
     cin>>n;
-    cout<<"enter the new element where you want to insert: ";
+    cout<<"\nenter the new element where you want to insert: ";
     temp=(struct node *)malloc(sizeof(struct node));
     cin>>temp->data;
-    while(a!=n)
+    for(i=1;i<=n;i++)
     {
         p=p->link;
     }
