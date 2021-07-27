@@ -28,7 +28,7 @@ int main()
         }
         else{
             p=root;
-            while(p!=NULL)
+            while(p->link!=NULL)
             {
                 p=p->link;
             }
@@ -41,10 +41,10 @@ int main()
 void display(struct node *root)
 {
     struct node *temp=root;
-    cout<<"\nlinked list is : ";
+    cout<<"\nlinked list is :\n ";
     while(temp!=NULL)
     {
-        cout<<temp->data;
+        cout<<temp->data<<" ->";
         temp=temp->link;
     }
 }
