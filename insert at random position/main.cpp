@@ -52,5 +52,10 @@ void display(struct node *root)
 }
 void insert_at_random(struct node *root)
 {
-    
+    struct node *temp=NULL,*p=NULL;
+    int n;
+    cout<<"enter the position where you want to insert the new element: ";
+    cin>>n;
+    cout<<"enter the new element where you want to insert: "
+
 }
