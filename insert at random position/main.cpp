@@ -45,5 +45,6 @@ void display(struct node *root)
     while(temp!=NULL)
     {
         cout<<temp->data;
+        temp=temp->link;
     }
 }
