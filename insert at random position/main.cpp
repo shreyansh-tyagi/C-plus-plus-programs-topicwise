@@ -9,6 +9,7 @@ struct node{
     struct node *link;
 
 };
+void display(struct node *);
 int main()
 {
     int i,n;
@@ -34,5 +35,11 @@ int main()
             p->link=temp;
         }
     }
+    display(root);
     return 0;
+}
+void display(struct node *root)
+{
+    struct node *temp=root;
+    while()
 }
