@@ -11,6 +11,11 @@ struct node {
 int main()
 {
     struct node *temp=NULL,*root=NULL,*p=NULL;
-    int i;
+    int i,n;
     cout<<"enter the length of linked list: ";
+    cin>>n;
+    for(i=1;i<=n;i++)
+    {
+        
+    }
 }
