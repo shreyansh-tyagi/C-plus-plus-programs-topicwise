@@ -20,6 +20,16 @@ int main()
         cout<<"enter the data into linked list: ";
         cin>>temp->data;
         temp->link=NULL;
-        if 
+        if (root==NULL)
+        {
+            root=temp;
+        }
+        else{
+            p=root;
+            while(p->link!=NULL)
+            {
+                
+            }
+        }
     }
 }
