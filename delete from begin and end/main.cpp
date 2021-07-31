@@ -16,6 +16,10 @@ int main()
     cin>>n;
     for(i=1;i<=n;i++)
     {
-        
+        temp=(struct node*)malloc(sizeof(struct node));
+        cout<<"enter the data into linked list: ";
+        cin>>temp->data;
+        temp->link=NULL;
+        if 
     }
 }
