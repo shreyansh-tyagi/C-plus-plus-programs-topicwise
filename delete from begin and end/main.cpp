@@ -10,6 +10,7 @@ struct node {
 };
 int main()
 {
-    
-    return 0;
+    struct node *temp=NULL,*root=NULL,*p=NULL;
+    int i;
+    cout<<"enter the length of linked list: ";
 }
