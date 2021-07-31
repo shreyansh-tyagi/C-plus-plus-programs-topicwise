@@ -38,5 +38,10 @@ int main()
 }
 void display(struct node *root)
 {
-
+    struct node *temp=NULL;
+    temp=root;
+    while(temp!=NULL)
+    {
+        
+    }
 }
