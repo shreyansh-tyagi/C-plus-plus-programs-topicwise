@@ -9,6 +9,7 @@ struct node {
     struct node *link;
 };
 void display(struct node *);
+void delete_from_begin_end(struct node *);
 int main()
 {
     struct node *temp=NULL,*root=NULL,*p=NULL;
@@ -35,6 +36,7 @@ int main()
         }
     }
     display(root);
+    delete_from_begin_end(root);
 }
 void display(struct node *root)
 {
@@ -42,7 +44,11 @@ void display(struct node *root)
     temp=root;
     while(temp!=NULL)
     {
-        cout<<temp->data;
+        cout<<temp->data<<" ";
         temp=temp->link;
     }
+}
+void delete_from_begin_end(struct node *root)
+{
+    
 }
