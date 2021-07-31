@@ -8,6 +8,7 @@ struct node {
     int data;
     struct node *link;
 };
+void display(struct node *);
 int main()
 {
     struct node *temp=NULL,*root=NULL,*p=NULL;
@@ -28,8 +29,14 @@ int main()
             p=root;
             while(p->link!=NULL)
             {
-                
+                p=p->link;
             }
+            p->link=temp;
         }
     }
+    display(root);
+}
+void display(struct node *root)
+{
+
 }
