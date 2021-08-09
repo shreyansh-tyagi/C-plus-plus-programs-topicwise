@@ -51,7 +51,7 @@ void display(struct node *root)
 void delete_from_begin_end(struct node *root)
 {
     root=root->link;
-    cout<<"\nlinked list after deletion from begin an end: \n";
+    cout<<"\nlinked list after deletion from begin and end: \n";
     while(root->link!=NULL)
     {
         cout<<root->data<<" ";
