@@ -55,6 +55,6 @@ void delete_from_begin_end(struct node *root)
     while(root->link!=NULL)
     {
         cout<<root->data<<" ";
-        root=root->lin;
+        root=root->link;
     }
 }
