@@ -57,4 +57,3 @@ void delete_from_begin_end(struct node *root)
         cout<<root->data<<" ";
         root=root->link;
     }
-}
