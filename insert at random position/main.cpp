@@ -17,7 +17,7 @@ int main()
     struct node *temp=NULL,*root=NULL,*p=NULL;
     cout<<"enter the length of linked list: ";
     cin>>n;
-    for(i=1;i<=n;i++)
+    for(i=1;i<=n;i++
     {
         temp=(struct node *)malloc(sizeof(struct node));
         cout<<"enter the element into the linked list: ";
